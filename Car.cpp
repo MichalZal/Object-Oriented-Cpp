@@ -87,4 +87,6 @@ int main(void)
 
     polonez.ryk();
     Sleep(2000);
+    
+    return 0;
 }
