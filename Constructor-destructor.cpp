@@ -2,7 +2,6 @@
 using namespace std;
 
 class Prostokat;
- 
 class Punkt
 {
    string nazwa;
@@ -68,6 +67,7 @@ void sedzia(Punkt &pkt,Prostokat &p)
     cout<<endl<<"Punkt "<<pkt.nazwa<<" lezy POZA prostokatem: "<<p.nazwa;
 }
  
+
 
 int main()
 {
