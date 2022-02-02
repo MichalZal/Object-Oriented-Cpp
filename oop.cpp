@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 class Prostokat;
  
 class Punkt
@@ -56,29 +55,20 @@ public:
 };
 
 
-
-
-
-
-
-
-
-
 void sedzia(Punkt &pkt,Prostokat &p)
 {
    p.nazwa="PODMIANA";
  
-if((pkt.x>=p.x)&&(pkt.x<=p.x+p.szerokosc)&&(pkt.y>=p.y)&&(pkt.y<=p.y+p.wysokosc))
+ if((pkt.x>=p.x)&&(pkt.x<=p.x+p.szerokosc)&&(pkt.y>=p.y)&&(pkt.y<=p.y+p.wysokosc))
  
     cout<<endl<<"Punkt "<<pkt.nazwa<<" nalezy do prostokata: "<<p.nazwa;
  
-else
+ else
  
     cout<<endl<<"Punkt "<<pkt.nazwa<<" lezy POZA prostokatem: "<<p.nazwa;
- 
- 
 }
  
+
 int main()
 {
     Punkt pkt1("A",3,17);
